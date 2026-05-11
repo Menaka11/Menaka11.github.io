@@ -37,7 +37,6 @@
     position: relative;
   }
 
-  /* ANIMATED BACKGROUND */
   body::before {
     content: '';
     position: fixed;
@@ -60,7 +59,6 @@
 
   nav, section, footer { position: relative; z-index: 1; }
 
-  /* CUSTOM SCROLLBAR */
   ::-webkit-scrollbar { width: 10px; }
   ::-webkit-scrollbar-track { background: var(--cream); }
   ::-webkit-scrollbar-thumb { 
@@ -70,7 +68,6 @@
   }
   ::-webkit-scrollbar-thumb:hover { background: var(--ink); }
 
-  /* CUSTOM CURSOR */
   .cursor-dot {
     width: 8px;
     height: 8px;
@@ -97,7 +94,6 @@
     transform: rotate(45deg);
   }
 
-  /* DARK MODE */
   body.dark-mode {
     --cream: #0F172A;
     --ink: #E2E8F0;
@@ -116,7 +112,6 @@
       radial-gradient(circle at 80% 80%, rgba(56, 189, 248, 0.08) 0%, transparent 50%);
   }
 
-  /* DARK MODE TOGGLE */
   .theme-toggle {
     background: var(--tag-bg);
     border: 1px solid var(--border);
@@ -170,7 +165,6 @@
   .nav-links a { text-decoration: none; color: var(--muted); font-size: 13px; letter-spacing: 0.04em; font-weight: 500; transition: color 0.2s; }
   .nav-links a:hover { color: var(--accent); }
   
-  /* DARK MODE TOGGLE */
   .theme-toggle {
     background: var(--tag-bg);
     border: 1px solid var(--border);
@@ -188,7 +182,7 @@
     transition: transform 0.3s ease;
   }
   .theme-toggle:hover .theme-icon { transform: rotate(20deg); }
-  /* HERO */
+
   .hero {
     min-height: 100vh;
     display: grid;
@@ -223,7 +217,6 @@
   }
   h1 em { color: var(--accent); font-style: italic; }
   
-  /* TYPING ANIMATION */
   .typing-text {
     display: inline-block;
     border-right: 3px solid var(--accent);
@@ -277,7 +270,7 @@
   .avatar-initials {
     font-family: var(--serif); font-size: 4.5rem; color: var(--white);
     letter-spacing: -0.03em; font-style: italic;
-    display: none; /* Hidden when image is used */
+    display: none;
   }
   .stat-cards {
     display: flex; flex-direction: column; gap: 0.8rem;
@@ -570,7 +563,6 @@
   </ul>
 </nav>
 
-<!-- HERO -->
 <section class="hero">
   <div class="hero-text fade-in">
     <div class="hero-tag">Open to Opportunities</div>
@@ -593,7 +585,6 @@
   </div>
 </section>
 
-<!-- ABOUT -->
 <section id="about">
   <div class="about-grid">
     <div class="about-left slide-in-left">
@@ -626,7 +617,6 @@
     </div>
   </div>
 </section>
-<!-- SKILLS -->
 <section id="skills">
   <div style="text-align:center; margin-bottom:3rem;" class="fade-in">
     <p class="section-label">What I Work With</p>
@@ -725,7 +715,6 @@
     </div>
   </div>
 </section>
-<!-- PROJECTS -->
 <section id="projects">
   <div style="text-align:center; margin-bottom:3rem;" class="fade-in">
     <p class="section-label">What I've Built</p>
@@ -747,7 +736,7 @@
         </div>
         <div class="project-footer">
           <div></div>
-          <a href="https://github.com/Menaka11/teams-accessibility-tool" target="_blank" class="github-link">
+          <a href="https://github.com/Menaka11/Teams-Accessibility-Tool" target="_blank" class="github-link">
             🐙 View Code
           </a>
         </div>
@@ -767,7 +756,7 @@
         </div>
         <div class="project-footer">
           <div></div>
-          <a href="https://github.com/Menaka11/netflix-analytics-dashboard" target="_blank" class="github-link">
+          <a href="https://github.com/Menaka11/Netflix-Analytics-Dashboard-Power-BI-Project" target="_blank" class="github-link">
             🐙 View Code
           </a>
         </div>
@@ -787,7 +776,7 @@
         </div>
         <div class="project-footer">
           <div></div>
-          <a href="https://github.com/Menaka11/task-manager" target="_blank" class="github-link">
+          <a href="https://github.com/Menaka11/Task-Manager" target="_blank" class="github-link">
             🐙 View Code
           </a>
         </div>
@@ -807,7 +796,7 @@
         </div>
         <div class="project-footer">
           <div></div>
-          <a href="https://github.com/Menaka11/college-fest-website" target="_blank" class="github-link">
+          <a href="https://github.com/Menaka11/college_fest_website" target="_blank" class="github-link">
             🐙 View Code
           </a>
         </div>
@@ -815,7 +804,6 @@
     </div>
   </div>
 </section>
-<!-- EXPERIENCE -->
 <section id="experience">
   <div style="text-align:center; margin-bottom:3rem;" class="fade-in">
     <p class="section-label">Professional Journey</p>
@@ -837,7 +825,6 @@
   </div>
 </section>
 
-<!-- CERTIFICATIONS -->
 <section id="certifications">
   <div style="text-align:center; margin-bottom:3rem;" class="fade-in">
     <p class="section-label">Credentials</p>
@@ -861,7 +848,6 @@
   </div>
 </section>
 
-<!-- CONTACT -->
 <section id="contact">
   <p class="section-label">Let's Connect</p>
   <h2 class="section-title fade-in">Get In Touch</h2>
